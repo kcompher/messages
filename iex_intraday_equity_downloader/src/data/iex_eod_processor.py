@@ -11,7 +11,7 @@ import sys
 import shutil
 
 ## get project dir
-pdir = PurePath("/YOUR/DIRECTORY/iex_intraday_equity_downloader")
+pdir = PurePath("/Users/kcom/code/messages/iex_intraday_equity_downloader")
 data_dir = pdir/'data'
 script_dir = pdir /'src'/'data'
 sys.path.append(script_dir.as_posix())

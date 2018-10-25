@@ -8,8 +8,6 @@ Created on Thu Jun 14 07:48:48 2018
 
 * 7-14 * * mon-fri /Users/kcom/conda/envs/messages/bin/python3.7 '/Users/kcom/code/messages/iex_intraday_equity_downloader/src/data/iex_downloader.py' >> /Users/kcom/code/messages/iex_intraday_equity_downloader/logs/equity_downloader_logs/iex_downloader_log.log
 
-
-
 * 7-14 * * mon-fri sleep 30; /Users/kcom/conda/envs/messages/bin/python3.7 '/Users/kcom/code/messages/iex_intraday_equity_downloader/src/data/iex_downloader.py' >> /Users/kcom/code/messages/iex_intraday_equity_downloader/logs/equity_downloader_logs/iex_downloader_log.log
 
 10 14 * * mon-fri /Users/kcom/conda/envs/messages/bin/python3.7 '/Users/kcom/code/messages/iex_intraday_equity_downloader/src/data/iex_eod_processor.py' >> /Users/kcom/code/messages/iex_intraday_equity_downloader/logs/equity_downloader_logs/iex_downloader_log.log

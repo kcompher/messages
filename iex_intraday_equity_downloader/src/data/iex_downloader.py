@@ -32,6 +32,7 @@ from logzero import logger
 # get current timestamp
 
 now = pd.to_datetime('today')
+#now = "2018-10-24 12:32:02.468711"
 #=============================================================================
 ## setup logger
 

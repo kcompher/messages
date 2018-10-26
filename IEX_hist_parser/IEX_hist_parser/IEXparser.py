@@ -37,10 +37,10 @@ Parsed 1,000,000 messages in 54.0 seconds -- 18512.9 messages per second
 from __future__ import annotations
 import struct
 from datetime import datetime, timezone
-from . import messages
+import messages
 from typing import BinaryIO, Optional, Iterator, Union, List, Tuple, Dict
-from .IEXHISTExceptions import ProtocolException
-from .TypeAliases import AllMessages
+from IEXHISTExceptions import ProtocolException
+from TypeAliases import AllMessages
 
 
 class Parser(object):

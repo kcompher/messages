@@ -1,5 +1,5 @@
 from typing import Union
-from . import messages
+from IEX_hist_parser import messages
 
 AllMessages = Union[
     messages.ShortSalePriceSale,

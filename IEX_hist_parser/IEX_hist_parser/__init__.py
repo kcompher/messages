@@ -1,3 +1,3 @@
-from .IEXparser import Parser
-from .IEXDownloader import DataDownloader
+from IEXparser import Parser
+from IEXDownloader import DataDownloader
 from .messages import *

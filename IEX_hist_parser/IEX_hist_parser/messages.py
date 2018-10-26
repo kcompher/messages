@@ -10,8 +10,8 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 import struct
 from typing import Dict, Union, Type
-from .IEXHISTExceptions import ProtocolException
-from .TypeAliases import AllMessages
+from IEXHISTExceptions import ProtocolException
+from TypeAliases import AllMessages
 
 
 # Debating whether this should just be a class variable of SystemEvent. I'm

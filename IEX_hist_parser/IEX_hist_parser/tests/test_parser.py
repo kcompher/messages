@@ -1,7 +1,9 @@
 import os
 import sys
 import unittest
-import IEX_hist_parser.IEXparser as iex
+#import IEX_hist_parser.IEXparser as iex
+import IEXparser as iex
+
 
 if sys.argv[0]:
     os.chdir(os.path.dirname(sys.argv[0]))
